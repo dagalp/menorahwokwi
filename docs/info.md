@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Imitates a hanukkiah, used to ceremonially track the 8 days of Hanukkah.
+Maximum of 9 lit LEDs, minimum of 1. The 1 central shamash candle is always lit, with the rest off by default. Each press of the step button adds one more lit candle right-to-left, up to 8. In case a lower number is desired, press again after 8 to reset.
 
 ## How to test
 
-Explain how to use your project
+Power on and press step button; go past 8 presses to ensure function of entire cycle.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+USB port for power.
