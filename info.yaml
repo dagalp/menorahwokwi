@@ -16,8 +16,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "button_step"
+  ui[1]: "switch_reset"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -26,14 +26,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "led_candle_1"
+  uo[1]: "led_candle_2"
+  uo[2]: "led_candle_3"
+  uo[3]: "led_candle_4"
+  uo[4]: "led_candle_5"
+  uo[5]: "led_candle_6"
+  uo[6]: "led_candle_7"
+  uo[7]: "led_candle_8"
 
   # Bidirectional pins
   uio[0]: ""
@@ -43,6 +43,8 @@ pinout:
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
+  uio[7]: ""
+
   uio[7]: ""
 
 # Do not change!
