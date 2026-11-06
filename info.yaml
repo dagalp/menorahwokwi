@@ -13,11 +13,11 @@ project:
 
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
-# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+# Pinout description
 pinout:
   # Inputs
-  ui[0]: "button_step"
-  ui[1]: "switch_reset"
+  ui[0]: "step_button"
+  ui[1]: ""
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -26,14 +26,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "led_candle_1"
-  uo[1]: "led_candle_2"
-  uo[2]: "led_candle_3"
-  uo[3]: "led_candle_4"
-  uo[4]: "led_candle_5"
-  uo[5]: "led_candle_6"
-  uo[6]: "led_candle_7"
-  uo[7]: "led_candle_8"
+  uo[0]: "candle_1"
+  uo[1]: "candle_2"
+  uo[2]: "candle_3"
+  uo[3]: "candle_4"
+  uo[4]: "candle_5"
+  uo[5]: "candle_6"
+  uo[6]: "candle_7"
+  uo[7]: "candle_8"
 
   # Bidirectional pins
   uio[0]: ""
@@ -45,7 +45,6 @@ pinout:
   uio[6]: ""
   uio[7]: ""
 
-  uio[7]: ""
 
 # Do not change!
 yaml_version: 6
