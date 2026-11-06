@@ -4,7 +4,7 @@ project:
   title:        "menorah wokwi tinytapeout"      # Project title
   author:       "david galperin"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "lights shamash by default, adds incremental day 1-8 (2-9) right-to-left until reset"      # One line description of what your project does
+  description:  "shamash is lit by default, adds incremental day 1-8 (lights 2-9) right-to-left until reset"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
